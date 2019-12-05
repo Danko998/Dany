@@ -1,0 +1,81 @@
+  Project4.DeleteAbonents.resources - Embedded, ContainedInManifestFile, 
+  Project4.MyForm.resources - Embedded, ContainedInManifestFile, 
+  Project4.MyForm1.resources - Embedded, ContainedInManifestFile, 
+  Project4.MyForm2.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project4, Version=0.0.*, Culture=Инвариантный язык (Инвариантная страна): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly MySql.Data, Version=8.0.18.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data.Entity, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data.Linq, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data.Services, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Project4.DeleteAbonents: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ListBox listBox2 : Public
+    System.Windows.Forms.ListBox listBox1 : Public
+  Methods:
+    DeleteFrom(Int32): PrivateScope, Public, HideBySig
+Class Project4.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Label label1 : Public
+    System.Windows.Forms.Label label2 : Public
+    System.Windows.Forms.Label label3 : Public
+    System.Windows.Forms.TextBox textBox1 : Public
+    System.Windows.Forms.TextBox textBox2 : Public
+    System.Windows.Forms.ListBox listBox1 : Public
+    System.Windows.Forms.Button button1 : Public
+    System.Windows.Forms.ListBox listBox2 : Public
+  Methods:
+    SaveNewAbonent(Int32, String, String): PrivateScope, Public, HideBySig
+Class Project4.MyForm2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.ListBox listBox2 : Public
+    System.Windows.Forms.ListBox listBox1 : Public
+    System.Windows.Forms.DateTimePicker dateTimePicker2 : Public
+    System.Windows.Forms.Button button1 : Public
+  Methods:
+    SaveNewTreaty(Int32, DateTime, DateTime): PrivateScope, Public, HideBySig
+Class Project4.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.GroupBox groupBox1 : Public
+    System.Windows.Forms.DataGridView dataGridView1 : Public
+    System.Windows.Forms.GroupBox groupBox2 : Public
+    System.Windows.Forms.DataGridView dataGridView2 : Public
+    System.Windows.Forms.MenuStrip menuStrip1 : Public
+    System.Windows.Forms.ToolStripMenuItem абонентыToolStripMenuItem : Public
+    System.Windows.Forms.ToolStripMenuItem добавитьToolStripMenuItem : Public
+    System.Windows.Forms.ToolStripMenuItem удалитьToolStripMenuItem : Public
+    System.Windows.Forms.ToolStripMenuItem договорыToolStripMenuItem : Public
+    System.Windows.Forms.ToolStripMenuItem оформитьДоговорToolStripMenuItem : Public
+    System.Windows.Forms.ToolStripMenuItem расторгнутьДоговорToolStripMenuItem : Public
+  Methods:
+    Getallabonents(): PrivateScope, Public, HideBySig
+    GetallContractsForAbonents(String): PrivateScope, Public, HideBySig
+    SaveNewAbonent(Int32, String, String): PrivateScope, Public, HideBySig
+Class Project4.N: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
